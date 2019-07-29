@@ -69,7 +69,7 @@
         <jetty.version>9.3.19.v20170502</jetty.version>
         <jersey.version>1.19.3</jersey.version>
         <!-- Watch out for Hadoop compatibility when updating to >= 2.5; see https://github.com/druid-io/druid/pull/1669 -->
-        <jackson.version>2.4.6</jackson.version>
+        <jackson.version>2.9.9.2</jackson.version>
         <log4j.version>2.5</log4j.version>
         <!-- HttpClient has not yet been ported to Netty 4.x -->
         <netty3.version>3.10.6.Final</netty3.version>
@@ -1185,7 +1185,7 @@
         <profile>
             <id>spark2</id>
             <properties>
-                <jackson.version>2.6.5</jackson.version>
+                <jackson.version>2.9.9.2</jackson.version>
                 <aws.sdk.version>1.11.143</aws.sdk.version>
             </properties>
         </profile>
